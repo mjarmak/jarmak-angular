@@ -1,0 +1,15 @@
+export const tracksSpotify = new Map([
+    ['i-uplift-u', 'https://open.spotify.com/track/4ma1jLNA1YqVT3mjGQajOU?si=da9332242a324e4d'],
+    ['slavik', 'https://open.spotify.com/track/07O3PeebU4L06MAlXqGG51?si=7eaaa82e4a5843e1'],
+    ['the-ending', 'https://open.spotify.com/track/47BBuLSuMZLd17Nn8splBs?si=79b5fd0b0ed046a7'],
+    ['fdtd', 'https://open.spotify.com/track/2Pu1XnJiS0PAX7zvgDFLiV?si=546ac985c26b4e62'],
+    ['xtal', 'https://open.spotify.com/track/6mG2nOlBwW7qixpwMU3lrs?si=3eb64d85f4d44c0a'],
+    ['cya', 'https://open.spotify.com/track/2PaOb3TjVGYOA7mbSplxLP?si=481085fcb2884639'],
+    ['inspired', 'https://open.spotify.com/track/7iF83iyYm9C3CeQiNQbaam?si=c26c589a7ae14dfc'],
+    ['storm', 'https://open.spotify.com/track/682dPxxgauKfXO1mEDloIh?si=08ff60d4c7c84d56'],
+    ['the-time', 'https://open.spotify.com/track/752UIRjr6kCX9pB1ESTHFw?si=3023e4f1bd974a32'],
+    ['tribe', 'https://open.spotify.com/track/0c8LVq4hIqB57ndyygy7RV?si=b770be7ecfed4d6a'],
+    ['walter-white', 'https://open.spotify.com/track/0YoMEQWJayeFocDYAfTR8N?si=55ec2730d41f4309'],
+    ['water', 'https://open.spotify.com/track/6LCBtcKrbNuXJgpXv4v75D?si=a9e7212a5d40491d'],
+    ['calling', 'https://open.spotify.com/track/4gJNk4I7ptxpZrR8kP1QXh?si=c67a40dc24ea484f'],
+]);

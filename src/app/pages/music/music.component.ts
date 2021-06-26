@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { tracksSpotify } from 'src/tracks/tracks-spotify';
 
 @Component({
   selector: 'app-music',
@@ -9,14 +10,15 @@ import { ActivatedRoute, Router } from '@angular/router';
 export class MusicComponent implements OnInit {
 
   constructor(
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
     ) { }
 
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap;
     const track = routeParams.get('track');
-    if (track) {
-      window.location.href='https://open.spotify.com/track/5gEACOU2ChQemSm9QHuprH?si=cd09557cf8dc416b';
+    const url = tracksSpotify.get(track)
+    if (url) {
+      window.location.href=url;
     }
   }
 
