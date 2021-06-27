@@ -1,4 +1,5 @@
 export const tracksSpotify = new Map([
+    ['jarmak', 'https://open.spotify.com/artist/04rCfoYCCCMUteMABcJbLH'],
     ['i-uplift-u', 'https://open.spotify.com/track/4ma1jLNA1YqVT3mjGQajOU?si=da9332242a324e4d'],
     ['slavik', 'https://open.spotify.com/track/07O3PeebU4L06MAlXqGG51?si=7eaaa82e4a5843e1'],
     ['the-ending', 'https://open.spotify.com/track/47BBuLSuMZLd17Nn8splBs?si=79b5fd0b0ed046a7'],
