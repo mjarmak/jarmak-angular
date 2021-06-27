@@ -17,8 +17,8 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
-import { MusicComponent } from './pages/music/music.component';
 import { PhotographyComponent } from './pages/photography/photography.component';
+import { MusicRedirectComponent } from './pages/music-redirect/music-redirect.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http)
@@ -29,7 +29,7 @@ export function HttpLoaderFactory(http: HttpClient) {
         AppComponent,
         NavbarComponent,
         LandingComponent,
-        MusicComponent,
+        MusicRedirectComponent,
         PhotographyComponent,
     ],
     imports: [

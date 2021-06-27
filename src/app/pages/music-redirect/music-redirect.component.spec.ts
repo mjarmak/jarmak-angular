@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MusicComponent } from './music.component';
+import { MusicRedirectComponent } from './music-redirect.component';
 
-describe('MusicComponent', () => {
-  let component: MusicComponent;
-  let fixture: ComponentFixture<MusicComponent>;
+describe('MusicRedirectComponent', () => {
+  let component: MusicRedirectComponent;
+  let fixture: ComponentFixture<MusicRedirectComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ MusicComponent ]
+      declarations: [ MusicRedirectComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MusicComponent);
+    fixture = TestBed.createComponent(MusicRedirectComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -7,7 +7,7 @@ import { tracksSpotify } from 'src/tracks/tracks-spotify';
   templateUrl: './music.component.html',
   styleUrls: ['./music.component.css']
 })
-export class MusicComponent implements OnInit {
+export class MusicRedirectComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
