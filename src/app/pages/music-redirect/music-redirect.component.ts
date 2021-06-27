@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { tracksSpotify } from 'src/tracks/tracks-spotify';
+import { linksSpotify } from 'src/links/links-spotify';
 
 @Component({
   selector: 'app-music',
@@ -16,7 +16,7 @@ export class MusicRedirectComponent implements OnInit {
   ngOnInit(): void {
     const routeParams = this.route.snapshot.paramMap;
     const track = routeParams.get('track');
-    const url = tracksSpotify.get(track)
+    const url = linksSpotify.get(track)
     if (url) {
       window.location.href=url;
     }

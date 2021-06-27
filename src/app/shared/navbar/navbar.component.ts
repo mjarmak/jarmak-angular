@@ -1,6 +1,7 @@
 import { Component, OnInit, ElementRef } from '@angular/core';
 import { Location, LocationStrategy, PathLocationStrategy } from '@angular/common';
 import { TranslateService } from '@ngx-translate/core';
+import { linksSocial } from 'src/links/links-social';
 
 @Component({
     selector: 'app-navbar',
@@ -10,6 +11,7 @@ import { TranslateService } from '@ngx-translate/core';
 export class NavbarComponent implements OnInit {
     private toggleButton: any;
     private sidebarVisible: boolean;
+    public linksSocial = linksSocial;
 
     constructor(
         public location: Location,

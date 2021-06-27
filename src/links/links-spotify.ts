@@ -1,4 +1,4 @@
-export const tracksSpotify = new Map([
+export const linksSpotify = new Map([
     ['jarmak', 'https://open.spotify.com/artist/04rCfoYCCCMUteMABcJbLH'],
     ['spotify', 'https://open.spotify.com/artist/04rCfoYCCCMUteMABcJbLH'],
     ['i-uplift-u', 'https://open.spotify.com/track/4ma1jLNA1YqVT3mjGQajOU?si=da9332242a324e4d'],
