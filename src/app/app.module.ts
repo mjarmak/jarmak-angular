@@ -20,6 +20,8 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { PhotographyComponent } from './pages/photography/photography.component';
 import { MusicRedirectComponent } from './pages/music-redirect/music-redirect.component';
 import { LinkRedirectComponent } from './pages/link-redirect/link-redirect.component';
+import { LinksComponent } from './pages/links/links.component';
+import { LinkListComponent } from './components/link-list/link-list.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http)
@@ -33,6 +35,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         MusicRedirectComponent,
         PhotographyComponent,
         LinkRedirectComponent,
+        LinksComponent,
+        LinkListComponent,
     ],
     imports: [
         BrowserAnimationsModule,

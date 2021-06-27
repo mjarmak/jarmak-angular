@@ -1,0 +1,14 @@
+.link-box{
+    background-color: white;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    padding: 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.link-box:hover{
+    background-color: lightgray;
+    transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+}

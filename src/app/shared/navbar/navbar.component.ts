@@ -9,6 +9,7 @@ import { linksSocial } from 'src/links/links-social';
     styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
+    
     private toggleButton: any;
     private sidebarVisible: boolean;
     public linksSocial = linksSocial;

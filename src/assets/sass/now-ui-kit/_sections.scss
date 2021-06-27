@@ -1,5 +1,5 @@
 .section{
-    padding: 50px 0;
+    padding-top: 30px;
     position: relative;
     background: $black-bg;
 
@@ -64,14 +64,20 @@
             max-width: 880px;
         }
     }
+    .width-logo {
+        max-width: 70% !important;
+    }
+    .logo-img{    
+        max-height: 256px;
+    }
     .category,
     .description{
         color: $opacity-5;
     }
 
     &.page-header-small{
-        min-height: 60vh;
-        max-height: 440px;
+        min-height: 40vh;
+        max-height: 300px;
     }
 
     &:after,
