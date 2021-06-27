@@ -4,8 +4,8 @@ import { tracksSpotify } from 'src/tracks/tracks-spotify';
 
 @Component({
   selector: 'app-music',
-  templateUrl: './music.component.html',
-  styleUrls: ['./music.component.css']
+  templateUrl: './music-redirect.component.html',
+  styleUrls: ['./music-redirect.component.css']
 })
 export class MusicRedirectComponent implements OnInit {
 
