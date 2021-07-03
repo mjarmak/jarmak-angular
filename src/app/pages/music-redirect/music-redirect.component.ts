@@ -19,7 +19,8 @@ export class MusicRedirectComponent implements OnInit {
     const url = linksSpotify.get(track)
     if (url) {
       window.location.href=url;
+    } else {
+      window.location.href='';
     }
   }
-
 }

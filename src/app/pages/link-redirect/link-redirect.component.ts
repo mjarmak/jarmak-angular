@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { linksSocial } from 'src/links/links-social';
 
-
 @Component({
   selector: 'app-link-redirect',
   templateUrl: './link-redirect.component.html',
@@ -20,6 +19,8 @@ export class LinkRedirectComponent implements OnInit {
     const url = linksSocial.get(link)
     if (url) {
       window.location.href=url;
+    } else {
+      window.location.href='';
     }
   }
 }
