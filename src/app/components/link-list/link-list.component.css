@@ -1,6 +1,5 @@
 .link-box{
     background-color: lightgray;
-    margin-bottom: 0.5rem;
     cursor: pointer;
     padding: 1rem;
     text-decoration: none;
@@ -11,4 +10,13 @@
     transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
     -webkit-transition: 0.2s ease-in-out;
+}
+.link-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+}
+.page-container{
+    max-width: 700px;
+    margin: auto;
 }

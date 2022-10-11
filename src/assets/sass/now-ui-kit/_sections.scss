@@ -68,7 +68,11 @@
         max-width: 70% !important;
     }
     .logo-img{    
-        max-height: 256px;
+        border-radius: 2rem;
+        border-radius: 2rem;
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 40px;
     }
     .category,
     .description{
@@ -77,7 +81,7 @@
 
     &.page-header-small{
         min-height: 40vh;
-        max-height: 300px;
+        max-height: 600px;
     }
 
     &:after,
