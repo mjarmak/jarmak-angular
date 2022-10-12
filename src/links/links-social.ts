@@ -1,5 +1,5 @@
 export const linksSocial = new Map([
-    ['linkedin', 'https://www.linkedin.com/in/mohamad-jarmak-8a0797154'],
+    ['linkedin', 'https://www.linkedin.com/in/mjarmak'],
     ['github', 'https://github.com/mjarmak'],
     ['art', 'https://www.instagram.com/mjarmak'],
     ['music videos', 'https://www.youtube.com/channel/UChpZPFMIFFfcmFsjWxTF6wg'],
