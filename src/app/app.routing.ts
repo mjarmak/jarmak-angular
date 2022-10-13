@@ -6,15 +6,17 @@ import { LandingComponent } from './pages/landing/landing.component';
 import { MusicRedirectComponent } from './pages/music-redirect/music-redirect.component';
 import { LinkRedirectComponent } from './pages/link-redirect/link-redirect.component';
 import { LinksComponent } from './pages/links/links.component';
+import { LandingFrComponent } from './pages/landing-fr/landing-fr.component';
+import { LandingNlComponent } from './pages/landing-nl/landing-nl.component';
 
 const routes: Routes = [
     { path: '', component: LandingComponent },
+    { path: 'fr', component: LandingFrComponent },
+    { path: 'nl', component: LandingNlComponent },
     { path: 's/:track', component: MusicRedirectComponent },
     { path: 'l/:link', component: LinkRedirectComponent },
     { path: 'links', component: LinksComponent },
-    // { path: 'photography', component: PhotographyComponent },
     
-    { path: ':link', redirectTo: '/l/:link', pathMatch: 'full' },
 ];
 
 @NgModule({

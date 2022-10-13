@@ -21,6 +21,8 @@ import { MusicRedirectComponent } from './pages/music-redirect/music-redirect.co
 import { LinkRedirectComponent } from './pages/link-redirect/link-redirect.component';
 import { LinksComponent } from './pages/links/links.component';
 import { LinkListComponent } from './components/link-list/link-list.component';
+import { LandingFrComponent } from './pages/landing-fr/landing-fr.component';
+import { LandingNlComponent } from './pages/landing-nl/landing-nl.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
     return new TranslateHttpLoader(http)
@@ -31,6 +33,8 @@ export function HttpLoaderFactory(http: HttpClient) {
         AppComponent,
         NavbarComponent,
         LandingComponent,
+        LandingFrComponent,
+        LandingNlComponent,
         MusicRedirectComponent,
         LinkRedirectComponent,
         LinksComponent,
