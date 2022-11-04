@@ -6,5 +6,5 @@ export const linksSocial = new Map([
     ['music', 'https://open.spotify.com/artist/04rCfoYCCCMUteMABcJbLH'],
     // ['facebook', 'https://www.facebook.com/mjarmak'],
     // ['soundcloud', 'https://soundcloud.com/mjarmak'],
-    ['twitter', 'https://www.twitter.com/mohamadjarmak'],
+    // ['twitter', 'https://www.twitter.com/mohamadjarmak'],
 ]);
