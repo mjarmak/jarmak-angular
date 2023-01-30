@@ -28,3 +28,14 @@
     align-items: center;
     align-content: space-around;
 }
+.card-header{
+    color:  #c2626f;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+.card-body{
+    color: black;
+    min-height: fit-content;
+}
